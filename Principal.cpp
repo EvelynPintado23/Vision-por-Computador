@@ -233,7 +233,7 @@ int main(int, char**) {
             frameOut = frame.clone();
 
             
-             /*on_trackbarHmin( alpha_slider1, 0);
+             on_trackbarHmin( alpha_slider1, 0);
              on_trackbarSmin( alpha_slider2, 0);
              on_trackbarVmin( alpha_slider3, 0);
              on_trackbarHmax( alpha_slider4, 0);
@@ -244,7 +244,7 @@ int main(int, char**) {
              on_trackbarCbmin( alpha_slider9, 0);
              on_trackbarYmax( alpha_slider10, 0);
              on_trackbarCrmax( alpha_slider11, 0);
-             on_trackbarCbmax( alpha_slider12, 0);*/
+             on_trackbarCbmax( alpha_slider12, 0);
             imshow("Original", frame);
 
 
