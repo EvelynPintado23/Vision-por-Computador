@@ -68,7 +68,7 @@ class Prueba{
         void drawSkinColorSampler(Mat input);
         Mat getSkinMask(Mat imput);
 		
-		static void on_trackbarHmin( int, void* );
+		/*static void on_trackbarHmin( int, void* );
 		static void on_trackbarSmin( int, void* );
 		static void on_trackbarVmin( int, void* );
 		static void on_trackbarYmin( int, void* );
@@ -79,7 +79,7 @@ class Prueba{
 		static void on_trackbarVmax( int, void* );
 		static void on_trackbarYmax( int, void* );
 		static void on_trackbarCrmax( int, void* );
-		static void on_trackbarCbmax( int, void* );
+		static void on_trackbarCbmax( int, void* );*/
 
 		int hLowThreshold = 0;
 		int hHighThreshold = 0;
